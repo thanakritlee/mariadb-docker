@@ -1,0 +1,1 @@
+docker run --name mariadb -p 3307:3306 -e MYSQL_ROOT_PASSWORD="password" -e MYSQL_DATABASE="myTable" -e MYSQL_USER="user" -e MYSQL_PASSWORD="password" -d mariadb:5
